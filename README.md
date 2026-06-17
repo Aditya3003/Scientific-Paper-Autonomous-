@@ -28,7 +28,7 @@ The repository is organized to provide easy access to processed results, visuali
 
 ├── YOLO Values/
 
-└── Images/
+└── Images.zip
 
 ```
 
@@ -112,72 +112,29 @@ Both spreadsheets contain YOLO results for all images across all recorded timest
 
 
 
-\### 3. Images
+\## 3. Images
 
+This folder contains the image dataset used for the camera analysis.
 
+To reduce the number of files stored directly in the repository, all images have been compressed into a ZIP archive.
 
-This folder contains the image dataset used in the analysis.
+#### File
 
+- **Images.zip**
+  - Contains the complete image dataset used in the analysis.
+  - Images are organized into two main folders.
+  - Each folder contains three subfolders:
+    - `High`
+    - `Mid`
+    - `Low`
+  - Each quality level further contains images collected at different distance settings:
+    - `d10`
+    - `d15`
+    - `d20`
 
-
-The structure is organized according to image quality levels and experimental distances:
-
-
-
-```
-
-Images/
-
-├── Clear/
-
-│   ├── High/
-
-│   │   ├── d10/
-
-│   │   ├── d15/
-
-│   │   └── d20/
-
-│   ├── Mid/
-
-│   │   ├── d10/
-
-│   │   ├── d15/
-
-│   │   └── d20/
-
-│   └── Low/
-
-│       ├── d10/
-
-│       ├── d15/
-
-│       └── d20/
-
-└── Noisy/
-
-&#x20;   ├── High/
-
-&#x20;   ├── Mid/
-
-&#x20;   └── Low/
-
-```
-
-
-
-Where:
-
-
-
-\* \*\*High\*\*, \*\*Mid\*\*, and \*\*Low\*\* represent different image quality or concentration levels.
-
-\* \*\*d10\*\*, \*\*d15\*\*, and \*\*d20\*\* represent the different distance settings used during data collection.
-
-
+Users can download and extract the ZIP file to access the original folder structure and image files.
 
 \---
-
 
 
 \## Purpose
